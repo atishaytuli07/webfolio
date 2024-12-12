@@ -1,0 +1,37 @@
+* {
+    user-select: none;
+}
+
+.flip-container {
+    perspective: 1000px;
+    width: 128px;
+    height: 128px;
+    margin: auto;
+}
+
+.flipper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 0.6s;
+}
+
+.flip-container.clicked .flipper {
+    transform: rotateY(180deg);
+}
+
+.front,
+.back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.back {
+    transform: rotateY(180deg);
+}
