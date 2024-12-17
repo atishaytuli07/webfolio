@@ -4,18 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Explore my Webfolio showcasing modern and creative web development projects. Includes full-stack projects, guides, tools, and creative innovations.">
+    <meta name="description" 
+        content="Atishay Tuli's WebFolio - MERN Stack Developer & Frontend Engineer. Explore my WebFolio featuring creative web projects, GSAP animations, and full-stack applications. View my work on GitHub @atishaytuli07.">
     <meta name="keywords"
-        content="Atishay Tuli, web development, webfolio, MERN stack projects, creative projects, frontend developer, JavaScript guides, atishaytuli07">
+        content="Atishay Tuli, atishaytuli07, atishay, WebFolio, MERN stack developer, frontend developer, GitHub portfolio, web development projects, 3D web animations, JavaScript developer, React developer, Node.js developer, atishaytuli07 github, atishay tuli portfolio">
     <meta name="author" content="Atishay Tuli">
-    <meta property="og:title" content="Atishay Tuli - Webfolio">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Atishay Tuli (atishaytuli07) - Creative Frontend & MERN Stack Developer">
     <meta property="og:description"
-        content="Explore Atishay Tuli's modern and creative web development projects, guides, tools and full-stack innovations.">
+        content="Discover Atishay Tuli's WebFolio - A showcase of modern web development projects including 3D animations, MERN stack applications, and creative tools. Follow @atishaytuli07 on GitHub.">
     <meta property="og:image" content="./atishaytuli.png">
-    <meta property="og:url" content="https://yourwebsite.com">
+    <meta property="og:url" content="https://atishaytuli07.github.io/webfolio">
     <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Atishay Tuli (atishaytuli07) - Creative Frontend & MERN Stack Developer">
+    <meta name="twitter:description" content="Explore Atishay Tuli's web development portfolio featuring MERN stack projects, 3D animations, and creative tools.">
     <title>WebFolio</title>
+    <link rel="canonical" href="https://webfolio-atishay.vercel.app">
     <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.4.0/fonts/remixicon.css" rel="stylesheet">
@@ -24,151 +29,184 @@
 
 <body class="bg-gray-100">
     <nav class="block sm:hidden flex justify-between p-3">
-        <button class="text-sm bg-blue-400 px-3 py-1 rounded-full text-white font-semibold Hire">Hire me 👋🏻</button>
+        <a href="https://drive.google.com/file/d/1WpahUD0VfNQduleiONQYjh93L3D8HVKf/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="text-sm bg-blue-400 px-3 py-1 rounded-full text-white font-semibold Hire inline-block">Hire me 👋🏻</a>
     </nav>
-    <header class="text-center py-10">
+    <header class="text-center py-6 sm:py-10">
         <div class="flip-container">
             <div class="flipper">
                 <div class="front">
-                    <img src="./images/atishaytuli.png" alt="Atishay Tuli"
-                        class="mx-auto rounded-full w-28 h-28 sm:w-38 sm:h-38">
+                    <img src="./images/atishaytuli.png" alt="Atishay Tuli" loading="lazy" width="152" height="152"
+                        class="mx-auto rounded-full w-24 h-24 sm:w-38 sm:h-38">
                 </div>
                 <div class="back">
-                    <img src="./images/memoji.png" alt="Mimoji"
-                        class="rounded-full w-28 h-28 sm:w-38 sm:h-38">
+                    <img src="./images/memoji.png" alt="Mimoji" loading="lazy" width="152" height="152"
+                        class="rounded-full w-24 h-24 sm:w-38 sm:h-38">
                 </div>
             </div>
         </div>
 
-        <h1 class="text-3xl sm:text-4xl font-semibold mt-2 sm:mt-4">Atishay Tuli</h1>
-        <p class="text-xs sm:text-base text-gray-600 font-medium mt-2">MERN | @ Creative Frontend Developer</p>
+        <h1 class="text-2xl sm:text-4xl font-semibold mt-2 sm:mt-4">Atishay Tuli</h1>
+        <p class="text-xs sm:text-base text-gray-600 font-medium mt-1 sm:mt-2">MERN | @ Creative Frontend Developer</p>
 
-        <div class="space-x-3 mt-4 flex justify-center items-center">
-            <a href="mailto:atishaytuliiaf@gmail.com" aria-label="Email"><i class="ri-mail-line sm:text-xl"></i></a>
-            <a href="https://www.linkedin.com/in/atishaytuli07/" aria-label="LinkedIn"><i
-                    class="ri-linkedin-fill sm:text-xl"></i></a>
-            <a href="https://github.com/atishaytuli07" aria-label="GitHub"><i class="ri-github-line sm:text-xl"></i></a>
-            <a href="https://drive.google.com/file/d/1WpahUD0VfNQduleiONQYjh93L3D8HVKf/view?usp=sharing" aria-label="Resume"><i class="ri-article-line sm:text-xl"></i></a>
-            <a href="https://uiverse.io/profile/atishaytuli07" aria-label="Uiverse Profile"><i
-                    class="ri-wechat-channels-line sm:text-xl"></i></a>
+        <div class="space-x-2 sm:space-x-3 mt-3 sm:mt-4 flex justify-center items-center">
+            <a href="mailto:atishaytuliiaf@gmail.com" rel="noopener" aria-label="Email" class="text-md sm:text-xl">
+                <i class="ri-mail-line"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/atishaytuli07/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="text-md sm:text-xl">
+                <i class="ri-linkedin-fill"></i>
+            </a>
+            <a href="https://github.com/atishaytuli07" target="_blank" rel="noopener noreferrer" aria-label="GitHub" class="text-md sm:text-xl">
+                <i class="ri-github-line"></i>
+            </a>
+            <a href="https://drive.google.com/file/d/1WpahUD0VfNQduleiONQYjh93L3D8HVKf/view?usp=sharing" target="_blank" rel="noopener noreferrer" aria-label="Resume" class="text-md sm:text-xl">
+                <i class="ri-article-line"></i>
+            </a>
+            <a href="https://uiverse.io/profile/atishaytuli07" target="_blank" rel="noopener noreferrer" aria-label="Uiverse Profile" class="text-md sm:text-xl">
+                <i class="ri-wechat-channels-line"></i>
+            </a>
         </div>
     </header>
 
-    <main class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 mt-12 sm:mt-0">
+    <main class="max-w-6xl mx-auto px-3 sm:px-6 lg:px-8 mt-8 sm:mt-0">
 
-        <section class="text-center mb-12 lg:mx-32">
-            <div class="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3 gap-6">
-                <div>
-                    <h2 class="font-bold text-xl">3JS Projects ⚡️</h2>
-                    <ul class="text-blue-600 mt-2 font-normal">
-                        <li><a href="#">3D Portfolio</a></li>
-                        <li><a href="#">Future Shop</a></li>
-                        <li><a href="#">City Game</a></li>
+        <section class="text-center mb-8 sm:mb-12 lg:mx-32">
+            <div class="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3 gap-4 sm:gap-6">
+                <div class="mb-6 sm:mb-0">
+                    <h2 class="font-bold text-lg sm:text-xl">3JS Projects ⚡️</h2>
+                    <ul class="text-blue-600 mt-2 font-normal text-sm sm:text-base">
+                        <li><a href="#" target="_blank" rel="noopener noreferrer">3D Portfolio</a></li>
+                        <li><a href="https://atishaytuli07.github.io/realestate" target="_blank" rel="noopener noreferrer">Future Building</a></li>
+                        <li><a href="#" target="_blank" rel="noopener noreferrer">City Game</a></li>
+                    </ul>
+                </div>
+                <div class="mb-6 sm:mb-0">
+                    <h2 class="font-bold text-lg sm:text-xl">New Products 🛠</h2>
+                    <ul class="text-blue-600 mt-2 sm:mt-4 font-normal text-sm sm:text-base">
+                        <li><a href="https://annotationsdocs.vercel.app" target="_blank" rel="noopener noreferrer">ANnotations</a></li>
+                        <li><a href="https://atishaytuli07.github.io/textcaseconvertor" target="_blank" rel="noopener noreferrer">@ tcc &nbsp;-text</a></li>
+                        <li><a href="https://atishaytuli07.github.io/autographica" target="_blank" rel="noopener noreferrer">Autographica</a></li>
                     </ul>
                 </div>
                 <div>
-                    <h2 class="font-bold text-xl">New Products 🛠</h2>
-                    <ul class="text-blue-600 mt-4 font-normal">
-                        <li><a href="#">ANnotations</a></li>
-                        <li><a href="https://atishaytuli07.github.io/textcaseconvertor/" target="_blank">@ tcc
-                                &nbsp;-text</a></li>
-                        <li><a href="https://atishaytuli07.github.io/autographica/" target="_blank">Autographica</a>
-                        </li>
-                    </ul>
-                </div>
-                <div>
-                    <h2 class="font-bold text-xl">My Guides 📜</h2>
-                    <ul class="text-blue-600 mt-4 font-normal">
-                        <li><a href="#">Asynchronous JS</a></li>
-                        <li><a href="#">HTML Elements</a></li>
-                        <li><a href="#">JS &nbsp;Arrays & Objects </a></li>
+                    <h2 class="font-bold text-lg sm:text-xl">My Guides 📜</h2>
+                    <ul class="text-blue-600 mt-2 sm:mt-4 font-normal text-sm sm:text-base">
+                        <li><a href="#" target="_blank" rel="noopener noreferrer">Asynchronous JS</a></li>
+                        <li><a href="#" target="_blank" rel="noopener noreferrer">HTML Elements</a></li>
+                        <li><a href="#" target="_blank" rel="noopener noreferrer">JS &nbsp;Arrays & Objects</a></li>
                     </ul>
                 </div>
             </div>
         </section>
 
-        <section class="bg-white shadow rounded-lg p-6 pt-8">
-            <h2 class="text-xl font-semibold mb-10">Full Stack Projects 🐦</h2>
+        <section class="bg-white shadow rounded-lg p-4 sm:p-6 pt-6 sm:pt-8">
+            <h2 class="text-lg sm:text-xl font-semibold mb-6 sm:mb-10">Full Stack Projects 🐦</h2>
             <div class="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-4">
-                <div>
-                    <h3 class="font-bold">1. &nbsp;⏳</h3>
-                    <span class="text-sm text-gray-700">updating soon ....</span>
-                    <!-- <a href="#" class="text-blue-500"><i class="ri-link"></i></a> -->
+                <div class="mb-4 sm:mb-0">
+                    <h3 class="font-bold text-sm sm:text-base">
+                        <a href="#" class="text-black no-underline">1. &nbsp;⏳</a>
+                    </h3>
+                    <span class="text-xs sm:text-sm text-gray-700">updating soon ....</span>
                 </div>
-                <div>
-                    <h3 class="font-bold">2. &nbsp;Dev Tinder</h3>
-                    <span class="text-sm text-gray-700"> MERN, Tailwind, DaisyUI, JWT</span>
-                    <a href="#" class="text-blue-500"><i class="ri-link"></i></a>
+                <div class="mb-4 sm:mb-0">
+                    <h3 class="font-bold text-sm sm:text-base">
+                        <a href="https://dev-tinder-mern.vercel.app" target="_blank" rel="noopener noreferrer" class="text-black no-underline">2. &nbsp;Dev Tinder</a>
+                    </h3>
+                    <span class="text-xs sm:text-sm text-gray-700"> MERN, Tailwind, DaisyUI, JWT</span>
+                    <a href="#" target="_blank" rel="noopener noreferrer" class="text-blue-500"><i class="ri-link"></i></a>
                 </div>
-                <div>
-                    <h3 class="font-bold">3. &nbsp;Anaconda Case</h3>
-                    <span class="text-sm text-gray-700"> NextJS, Typescript, Tailwind, React </span>
-                    <a href="#" class="text-blue-500"><i class="ri-link"></i></a>
+                <div class="mb-4 sm:mb-0">
+                    <h3 class="font-bold text-sm sm:text-base">
+                        <a href="https://anacondacases.vercel.app" target="_blank" rel="noopener noreferrer" class="text-black no-underline">3. &nbsp;Anaconda Case</a>
+                    </h3>
+                    <span class="text-xs sm:text-sm text-gray-700"> NextJS, Typescript, Tailwind, React </span>
+                    <a href="https://github.com/atishaytuli07/Anaconda-Cases.git" target="_blank" rel="noopener noreferrer" class="text-blue-500"><i class="ri-link"></i></a>
                 </div>
-                <div>
-                    <h3 class="font-bold">4. &nbsp;Urban Elegance</h3>
-                    <span class="text-sm text-gray-700"> react, node, JWT, </span>
-                    <a href="#" class="text-blue-500"><i class="ri-link"></i></a>
+                <div class="mb-4 sm:mb-0">
+                    <h3 class="font-bold text-sm sm:text-base">
+                        <a href="#" target="_blank" rel="noopener noreferrer" class="text-black no-underline">4. &nbsp;Urban Elegance</a>
+                    </h3>
+                    <span class="text-xs sm:text-sm text-gray-700"> react, node, JWT, </span>
+                    <a href="#" target="_blank" rel="noopener noreferrer" class="text-blue-500"><i class="ri-link"></i></a>
                 </div>
-                <div>
-                    <h3 class="font-bold">5. &nbsp;Movie Showcase App</h3>
-                    <span class="text-sm text-gray-700"> React, Tailwind</span>
-                    <a href="#" class="text-blue-500"><i class="ri-link"></i></a>
+                <div class="mb-4 sm:mb-0">
+                    <h3 class="font-bold text-sm sm:text-base">
+                        <a href="#" target="_blank" rel="noopener noreferrer" class="text-black no-underline">5. &nbsp;Movie Showcase App</a>
+                    </h3>
+                    <span class="text-xs sm:text-sm text-gray-700"> React, Tailwind</span>
+                    <a href="https://github.com/atishaytuli07/SCSDB-MovieShowcaseApp.git" target="_blank" rel="noopener noreferrer" class="text-blue-500"><i class="ri-link"></i></a>
                 </div>
-                <div>
-                    <h3 class="font-bold">6. &nbsp;Chess.com</h3>
-                    <span class="text-sm text-gray-700"> NodeJS, Express, SocketIO, Chess.js</span>
-                    <a href="#" class="text-blue-500"><i class="ri-link"></i></a>
+                <div class="mb-4 sm:mb-0">
+                    <h3 class="font-bold text-sm sm:text-base">
+                        <a href="#" target="_blank" rel="noopener noreferrer" class="text-black no-underline">6. &nbsp;Chess.com</a>
+                    </h3>
+                    <span class="text-xs sm:text-sm text-gray-700"> NodeJS, Express, SocketIO, Chess.js</span>
+                    <a href="#" target="_blank" rel="noopener noreferrer" class="text-blue-500"><i class="ri-link"></i></a>
                 </div>
-                <div>
-                    <h3 class="font-bold">7. &nbsp;Employee Management</h3>
-                    <span class="text-sm text-gray-700"> ReactJS, LocalStoage, Tailwind</span>
-                    <a href="#" class="text-blue-500"><i class="ri-link"></i></a>
+                <div class="mb-4 sm:mb-0">
+                    <h3 class="font-bold text-sm sm:text-base">
+                        <a href="#" target="_blank" rel="noopener noreferrer" class="text-black no-underline">7. &nbsp;Employee Management</a>
+                    </h3>
+                    <span class="text-xs sm:text-sm text-gray-700"> ReactJS, LocalStoage, Tailwind</span>
+                    <a href="#" target="_blank" rel="noopener noreferrer" class="text-blue-500"><i class="ri-link"></i></a>
                 </div>
             </div>
 
-            <section class="mt-10">
-                <h2 class="text-xl font-semibold mb-10">Creative Projects ✨</h2>
-                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
-                    <div>
-                        <h3 class="font-bold">
+            <section class="mt-8 sm:mt-10">
+                <h2 class="text-lg sm:text-xl font-semibold mb-6 sm:mb-10">Creative Projects ✨</h2>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
+                    <div class="mb-3 sm:mb-0">
+                        <h3 class="font-bold text-sm sm:text-base">
                             1. &nbsp;OCHII
-                            <a href="#" class="text-blue-500">
+                            <a href="https://ochhii.vercel.app" target="_blank" rel="noopener noreferrer" class="text-blue-500">
                                 <i class="ri-links-fill"></i></a>
                         </h3>
                     </div>
-                    <div>
-                        <h3 class="font-bold">
+                    <div class="mb-3 sm:mb-0">
+                        <h3 class="font-bold text-sm sm:text-base">
                             2. &nbsp;ReFokus
-                            <a href="#" class="text-blue-500">
+                            <a href="https://refokus-drab.vercel.app" target="_blank" rel="noopener noreferrer" class="text-blue-500">
                                 <i class="ri-links-fill"></i></a>
                         </h3>
                     </div>
-                    <div>
-                        <h3 class="font-bold">
+                    <div class="mb-3 sm:mb-0">
+                        <h3 class="font-bold text-sm sm:text-base">
                             3. &nbsp;ExoApe
-                            <a href="#" class="text-blue-500">
+                            <a href="https://exoape-uiclone.vercel.app" target="_blank" rel="noopener noreferrer" class="text-blue-500">
+                                <i class="ri-links-fill"></i></a>
+                        </h3>
+                    </div>
+                    <div class="mb-3 sm:mb-0">
+                        <h3 class="font-bold text-sm sm:text-base">
+                            4. &nbsp;21st 'C Museum
+                            <a href="https://atishaytuli07.github.io/21st-Century-Museum" target="_blank" rel="noopener noreferrer" class="text-blue-500">
+                                <i class="ri-links-fill"></i></a>
+                        </h3>
+                    </div>
+                    <div class="mb-3 sm:mb-0">
+                        <h3 class="font-bold text-sm sm:text-base">
+                            5. &nbsp;Two Good
+                            <a href="https://atishaytuli07.github.io/twogood.co" target="_blank" rel="noopener noreferrer" class="text-blue-500">
+                                <i class="ri-links-fill"></i></a>
+                        </h3>
+                    </div>
+                    <div class="mb-3 sm:mb-0">
+                        <h3 class="font-bold text-sm sm:text-base">
+                            6. &nbsp;Rejouicee
+                            <a href="https://atishaytuli07.github.io/rejouicee" target="_blank" rel="noopener noreferrer" class="text-blue-500">
                                 <i class="ri-links-fill"></i></a>
                         </h3>
                     </div>
                     <div>
-                        <h3 class="font-bold">
-                            4. &nbsp;Two Good
-                            <a href="https://atishaytuli07.github.io/twogood.co/" class="text-blue-500">
-                                <i class="ri-links-fill"></i></a>
-                        </h3>
-                    </div>
-                    <div>
-                        <h3 class="font-bold">
-                            5. &nbsp;21st Century Museum
-                            <a href="https://atishaytuli07.github.io/21st-Century-Museum/" class="text-blue-500">
+                        <h3 class="font-bold text-sm sm:text-base">
+                            7. &nbsp;Botanicals
+                            <a href="https://atishaytuli07.github.io/shery.js" target="_blank" rel="noopener noreferrer" class="text-blue-500">
                                 <i class="ri-links-fill"></i></a>
                         </h3>
                     </div>
                 </div>
 
                 <div class="text-right mt-4">
-                    <a href="https://github.com/atishaytuli07?tab=repositories" class="text-blue-500 font-semibold">More projects here
+                    <a href="https://github.com/atishaytuli07?tab=repositories" target="_blank" rel="noopener noreferrer" class="text-blue-500 font-semibold text-sm sm:text-base">More projects here
                         →</a>
                 </div>
 
@@ -178,8 +216,8 @@
 
     </main>
 
-    <footer class="text-center mt-10 sm:mt-0 mb-2 block sm:hidden">
-        <p class="text-sm text-gray-600">© '24 Atishay Tuli, All rights reserved.</p>
+    <footer class="text-center mt-8 sm:mt-0 mb-2 block sm:hidden">
+        <p class="text-xs sm:text-sm text-gray-600">© '24 Atishay Tuli, All rights reserved.</p>
     </footer>
 
     <script src="./script.js"></script>
